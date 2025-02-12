@@ -1,6 +1,6 @@
 import React, { FC, memo } from 'react';
 import { Text, TouchableOpacity } from 'react-native';
-import createStyles from './style';
+import createStyles from './styles';
 import { ButtonProps } from './type';
 
 const ButtonComponent: FC<ButtonProps> = ({ variant = 'solid', isFullWidth = false, children, onPress }) => {
